@@ -15,18 +15,11 @@ body {
     cursor: pointer;  
 }
 
-.general-content {
-}
-
 .transparent {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.header{
-
-}
-   
 .button-bar {
     margin-top: 15px;
     margin-bottom: 10px;
