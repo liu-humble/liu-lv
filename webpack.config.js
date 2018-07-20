@@ -18,11 +18,15 @@ module.exports = env => {
                     {
                         test: /\.css$/,
                         use: [
-                          { loader: 'style-loader' },
-                          { loader: 'css-loader', options: { minimize: isProduction } },
-                          { loader: 'postcss-loader' } // config in postcss.config.js
+                            { loader: 'style-loader' },
+                            { loader: 'css-loader', options: { minimize: isProduction } },
+                            { loader: 'postcss-loader' }
                         ]
-                      }
+                    },
+                    {
+                        test: /locales/,
+                        loader: '@alienfast/i18next-loader'
+                    }
                 ]
             }
         },

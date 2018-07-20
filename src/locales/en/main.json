@@ -1,0 +1,15 @@
+{
+    "buttons": {
+        "about-me": "About me",
+        "music-and-video": "Music and Videos",
+        "photos": "Photos",
+        "life": "Life in Germany",
+        "contact": "Contact"
+    },
+    "lang": {
+        "de": "German",
+        "en": "English",
+        "ru": "Russian"
+
+    }
+}

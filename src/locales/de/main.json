@@ -1,0 +1,14 @@
+{
+    "buttons": {
+        "about-me": "Über mich",
+        "music-and-video": "Musik und Videos",
+        "photos": "Fotos",
+        "life": "Leben in Deutschland",
+        "contact": "Kontakt"
+    },
+    "lang": {
+        "de": "Deutsch",
+        "en": "Englisch",
+        "ru": "Russisch"
+    }
+}
