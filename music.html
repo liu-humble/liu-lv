@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="Liu" content="Liu Music and Video">
+
+    <title>Musik und Videos</title>
+    <link href="js/lib/video-js-6.2.8/video-js.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/lib/modernizr.custom.69142.js"></script>
+    <script type="text/javascript" src="js/lib/video-js-6.2.8/video.min.js"></script>
+</head>
+
+<body>
+    <div class="general-content">
+        <div class="transparent"></div>
+
+        <div class="header">
+
+            <nav class="button-bar">
+                <ul>
+                    <li>
+                        <a href="index.html" class="button">Über mich</a>
+                    </li>
+                    <li>
+                        <a href="music.html" class="button active">Musik und Videos</a>
+                    </li>
+                    <li>
+                        <a href="photos.html" class="button">Fotos</a>
+                    </li>
+                    <li>
+                        <a href="life.html" class="button">Leben in Deutschland</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="button">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="img-baltic-sea">
+                <img src="img/baltic-sea.jpg" title="Baltic Sea" alt="Baltic Sea" width="100%" height="360" />
+                <div class="logo">
+                    <img src="img/logo.png" alt="Liu Logo" width="253" height="142" />
+                </div>
+                <div class="lang-button-bar">
+                    <button class="button active btn-lang" title="german language">
+                        <img src="img/deu.png" alt="Deu" width="15" height="10" /> De
+                    </button>
+                    <button class="button btn-lang" title="english language">
+                        <img src="img/eng.png" alt="Eng" width="15" height="10" /> En
+                    </button>
+                    <button class="button btn-lang" title="russian language">
+                        <img src="img/rus.png" alt="Rus" width="15" height="10" /> Ru
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <section class="greating">
+            <h1 class="hallo">
+                Willkommen und ich wünsche Dir viel Spaß beim Anschauen!
+            </h1>
+        </section>
+        <div class="video-list">
+
+            <div class="video-box">
+                <video id="liu-player" class="video-js" controls preload="auto" width="240" height="135" poster="img/Weintrauben.jpg" data-setup='{}'>
+                    <source src="video/l_amour_c_est comme_l_ete.mp4" type="video/mp4"></source>
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">
+                            supports HTML5 video
+                        </a>
+                    </p>
+                </video>
+
+                <div class="video-info">
+                    <h3>L'amour c'est comme l'été</h3>
+                    <span>Musik und Video:&nbsp;&nbsp;Liu (2017)</span>
+                    <p class="video-info-small-text">
+                            Ich bedanke mich bei Viktorija S. für ihre Teilnahme an diesem Projekt.
+                    </p>
+                </div>
+            </div>
+
+            <div class="video-box">
+                <video id="liu-player" class="video-js" controls preload="auto" width="240" height="135" poster="img/Winter.png" data-setup='{}'>
+                    <source src="video/Wintermaerchen.mp4" type="video/mp4"></source>
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">
+                            supports HTML5 video
+                        </a>
+                    </p>
+                </video>
+
+                <div class="video-info">
+                    <h3>Wintermärchen</h3>
+                    <span>
+                        Musik und Video:&nbsp;&nbsp;Liu (2017)
+                    </span>
+                    <p class="video-info-small-text">
+                        Ich bedanke mich bei Edgars B. für das netterweise zur Verfügung gestellte Video des Neuschwanstein Schlosses.
+                    </p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p class="copyright" property="dc:rights">&copy;
+                <span property="dc:dateCopyrighted">2010-2018</span>
+                <span property="dc:publisher">Lubova Obutova</span>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
