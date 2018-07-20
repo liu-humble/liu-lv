@@ -181,22 +181,6 @@ body {
   text-decoration: none;
 }
 
-.photo-album {
-  margin: 0px 29px 0px 30px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.photo-album > img {
-  margin-right: 5px;
-  margin-bottom: 10px;
-  margin-top: 5px;
-  padding: 2px;
-  border: 2px solid rgba(255, 255, 240, 0.380);
-  border-radius: 3px;
-}
-
 .text-box {
   display: block;
   margin: auto;
