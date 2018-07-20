@@ -1,0 +1,71 @@
+.thanks {
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 230%;
+  word-spacing: 10px;
+}
+
+.my-mail {
+  text-decoration: none;
+}
+
+.text-box {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 100px;
+  font-family: Courier, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  background: #ccc6b62f;
+  padding: 6px 6px;
+  font-size: 14px;
+  color: #a39a9a;
+  border: 1px solid rgba(255, 255, 240, 0.380);
+  border-radius: 3px;
+}
+
+.button-send {
+  background-color: #ccc6b62f;
+  padding: 5px 40px;
+  font-size: 16px;
+  font-family: Courier, sans-serif;
+  font-style: italic;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #4b4949;
+  text-decoration: none;
+  border: #a19999;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 240, 0.384);
+  box-shadow: 0 1px #5f5e5ead;
+  outline: none;
+}
+
+.first-name,
+.e-mail {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 3px;
+  margin-bottom: 4px;
+  background: #ccc6b62f;
+  padding: 0 5px;
+  font-size: 14px;
+  font-family: Courier, sans-serif;
+  font-style: italic;
+  color: #4b4949;
+  border: #a19999;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 240, 0.384);
+}
+
+.button-send:hover,
+.text-box:hover,
+.first-name:hover,
+.e-mail:hover {
+  background: #b1a8932f;
+  text-shadow: 0.015em 0.015em rgba(70, 66, 66, 0.911);
+  border: 1px solid rgba(128, 124, 124, 0.380);
+}

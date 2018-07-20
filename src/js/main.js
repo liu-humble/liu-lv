@@ -16,7 +16,7 @@ i18next
 
 function updateContent() {
   document.querySelectorAll('[data-text]').forEach(element => {
-    element.innerText = i18next.t(element.dataset.text);
+    element.innerHTML = i18next.t(element.dataset.text);
   });
   document.querySelectorAll('[data-title-text]').forEach(element => {
     element.title = i18next.t(element.dataset.titleText);

@@ -8,8 +8,6 @@
     <title>Musik und Videos</title>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/video.css" rel="stylesheet">
-    <script src="js/main.js"></script>
-    <script src="js/video.js"></script>
 </head>
 
 <body>
@@ -21,19 +19,19 @@
             <nav class="button-bar">
                 <ul>
                     <li>
-                        <a href="index.html" class="button">Über mich</a>
+                        <a href="index.html" class="button active" data-text="buttons:about-me"></a>
                     </li>
                     <li>
-                        <a href="music.html" class="button active">Musik und Videos</a>
+                        <a href="music.html" class="button" data-text="buttons:music-and-video"></a>
                     </li>
                     <li>
-                        <a href="photos.html" class="button">Fotos</a>
+                        <a href="photos.html" class="button" data-text="buttons:photos"></a>
                     </li>
                     <li>
-                        <a href="life.html" class="button">Leben in Deutschland</a>
+                        <a href="life.html" class="button" data-text="buttons:life"></a>
                     </li>
                     <li>
-                        <a href="contact.html" class="button">Kontakt</a>
+                        <a href="contact.html" class="button" data-text="buttons:contact"></a>
                     </li>
                 </ul>
             </nav>
@@ -44,20 +42,20 @@
                     <img src="img/logo.png" alt="Liu Logo" width="253" height="142" />
                 </div>
                 <div class="lang-button-bar">
-                    <button class="button active btn-lang" title="german language">
+                    <button class="button btn-lang" data-lang="de" data-title-text="lang:de">
                         <img src="img/deu.png" alt="Deu" width="15" height="10" /> De
                     </button>
-                    <button class="button btn-lang" title="english language">
+                    <button class="button btn-lang" data-lang="en" data-title-text="lang:en">
                         <img src="img/eng.png" alt="Eng" width="15" height="10" /> En
                     </button>
-                    <button class="button btn-lang" title="russian language">
+                    <button class="button btn-lang" data-lang="ru" data-title-text="lang:ru">
                         <img src="img/rus.png" alt="Rus" width="15" height="10" /> Ru
                     </button>
                 </div>
             </div>
         </div>
 
-        <section class="greating">
+        <section class="greeting">
             <h1 class="hallo">
                 Willkommen und ich wünsche Dir viel Spaß beim Anschauen!
             </h1>
@@ -116,6 +114,8 @@
             </p>
         </div>
     </div>
+    <script src="js/main.js"></script>
+    <script src="js/video.js"></script>
 </body>
 
 </html>
