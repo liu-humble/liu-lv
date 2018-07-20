@@ -1,4 +1,6 @@
-
+.vscode/*
 .DS_Store
 *.mp4
 node_modules
+dist/js/*
+dist/css/*

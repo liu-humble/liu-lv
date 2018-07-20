@@ -2,9 +2,10 @@
   "name": "liu-lv",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "watch": "webpack --mode=development --env=development --watch"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,18 @@
   },
   "homepage": "http://www.liu.lv",
   "devDependencies": {
+    "autoprefixer": "^9.0.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "glob": "^7.1.2",
+    "postcss": "^7.0.1",
+    "postcss-loader": "^2.1.6",
+    "postcss-nesting": "^6.0.0",
+    "style-loader": "^0.21.0",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "video.js": "^7.0.5"
   }
 }
