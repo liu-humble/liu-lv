@@ -3,12 +3,39 @@
         "about-me": "Über mich",
         "music-and-video": "Musik und Videos",
         "photos": "Fotos",
-        "life": "Leben in Deutschland",
+        "life": "Riga - Karlsruhe",
         "contact": "Kontakt"
     },
     "lang": {
         "de": "Deutsch",
         "en": "Englisch",
         "ru": "Russisch"
+    },
+    
+    "greeting": {
+        "hallo": "Hallo liebe(-r) Besucher(-rin) meiner Seite! </br> Willkommen und ich bin froh, dass Du zu meiner Welt vorbeigekommen bist.",
+        "hallo-videos": "Willkommen und ich wünsche Dir viel Spaß beim Videos-Anschauen.",
+        "hallo-photos": "Willkommen und ich wünsche Dir viel Spaß beim Fotos-Anschauen.",
+        "hallo-contact": "Liebe(-r) Besucher(-rin) meiner Seite,"
+    },
+    "maintext": {
+        "first-content-main": "Hallo, mein Name ist Liu und diese Seite habe ich meinem Lieblings Hobby gewidmet. Die Seite befindet sich noch in der Entwicklungsphase, also ich hoffe, dass sie bald vielfältiger und interessanter sein wird. Hier stelle ich Ihnen meine eigenen kleinen musikalischen Kompositionen vor. Ich habe auch versucht, sie in Videoszenen zu visualisieren.",
+        "second-content-main": "Mein Hobby in Kürze. Seitdem ich ein 5-jähriges Mädchen war, habe ich mich mit Musik beschäftigt und jetzt finde ich, dass mit ihrer Hilfe für mich eine völlig neue Welt eröffnet wurde. Obwohl sie als mein Hobby geblieben ist, dadurch kann ich nicht nur sie zuhören, hören, sondern auch wahrnehmen und analysieren. Von den großartigen Klängen der Natur bis zu den vielen musikalischen Variationen und Stilen, die nur Menschen schaffen konnten. Ich kann zugeben, dass ich immer noch sehr wenig über sie weiß. Außerdem kenne ich überhaupt niemanden, der alles über Musik weiß.", 
+        "third-content-main": "Also, sie ist einzigartig, einmalig, beispiellos und vielseitig, die in der einfachsten und leicht zugänglichsten Sprache der Welt mit uns sprechen und kommunizieren kann. Sie hilft uns weit und breit und gibt uns einen Anreiz, um weiter zu leben. Sie bringt Vergnügen und Belohnungen, inspiriert die, die es wollen, und mit ihrer Hilfe können wir etwas Neues, Unerwartetes, \"Frisches\" und \"Leckeres\" (und manchmal wahrscheinlich etwas \"Verrücktes\") für die Wahrnehmung kreieren. Man kann endlos über sie sprechen, debattieren, als über eine anspruchsvollste und herablassende Lehrerin. Sie hat aber kein Zeitlimit und sie kennt keine Grenzen...  Ihr Name ist uns allen seit der Kindheit bekannt, weil er unveränderlich ist - Musik. Und sie ist die Perfektion."
+    },
+    "life": {
+        "first-content": "Ich bin in Lettland gebohren und ...",
+        "second-content": "Seit 2015 Juni lebe ich in Deutschland...." 
+    },
+    "contact": {
+        "first-content-contact": "falls Du mir eine gute und ehrliche Rezension oder Kommentar schreiben möchtest,</br> <strong>Bitte sehr! </strong> </br> Shreib mir einfach eine E-Mail" ,
+        "second-content-contact": "</br> <strong> oder </strong> </br> gerade da in das Nachrichtenfenster.</br> (max. 200 Zeichen)",
+        "third-content-contact": "Und vielen Dank Dir im Voraus.",
+        "button-send": "Senden"
+    },
+    "placeholder": {
+        "name": "Dein Name",
+        "mail": "Dein E-Mail"
     }
+
 }

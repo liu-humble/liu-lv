@@ -21,6 +21,9 @@ function updateContent() {
   document.querySelectorAll('[data-title-text]').forEach(element => {
     element.title = i18next.t(element.dataset.titleText);
   });
+  document.querySelectorAll('[data-placeholder-text]').forEach(element => {
+    element.placeholder = i18next.t(element.dataset.placeholderText);
+  });
 }
 
 i18next.on('languageChanged', () => {

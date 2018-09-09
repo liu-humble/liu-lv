@@ -15,7 +15,6 @@
   margin: auto;
   width: 300px;
   height: 100px;
-  font-family: Courier, sans-serif;
   font-style: italic;
   font-size: 16px;
   background: #ccc6b62f;
@@ -30,11 +29,11 @@
   background-color: #ccc6b62f;
   padding: 5px 40px;
   font-size: 16px;
-  font-family: Courier, sans-serif;
+  font-family: cursive, monotypeFont, sans-serif;
   font-style: italic;
   letter-spacing: 3px;
   text-align: center;
-  color: #4b4949;
+  color: #888;
   text-decoration: none;
   border: #a19999;
   border-radius: 3px;
@@ -53,18 +52,29 @@
   background: #ccc6b62f;
   padding: 0 5px;
   font-size: 14px;
-  font-family: Courier, sans-serif;
+  font-family: cursive, monotypeFont, sans-serif;
   font-style: italic;
-  color: #4b4949;
   border: #a19999;
   border-radius: 3px;
   border: 1px solid rgba(255, 255, 240, 0.384);
 }
 
-.button-send:hover,
-.text-box:hover,
-.first-name:hover,
-.e-mail:hover {
+a.disable-link-default-color, a.disable-link-default-color:visited 
+{
+  color: #888;
+  text-decoration: underline;
+}
+
+.accent-on-hover:hover,
+.accent-on-hover:hover::placeholder,
+.accent-on-hover:hover a.disable-link-default-color,
+.accent-on-hover:hover a.disable-link-default-color:visited {
+  color: #4b4711;
+}
+
+input.accent-on-hover:hover,
+textarea.accent-on-hover:hover,
+a.accent-on-hover:hover {
   background: #b1a8932f;
   text-shadow: 0.015em 0.015em rgba(70, 66, 66, 0.911);
   border: 1px solid rgba(128, 124, 124, 0.380);

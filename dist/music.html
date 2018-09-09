@@ -19,17 +19,17 @@
             <nav class="button-bar">
                 <ul>
                     <li>
-                        <a href="index.html" class="button active" data-text="buttons:about-me"></a>
+                        <a href="index.html" class="button" data-text="buttons:about-me"></a>
                     </li>
                     <li>
-                        <a href="music.html" class="button" data-text="buttons:music-and-video"></a>
+                        <a href="music.html" class="button active" data-text="buttons:music-and-video"></a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="photos.html" class="button" data-text="buttons:photos"></a>
                     </li>
                     <li>
                         <a href="life.html" class="button" data-text="buttons:life"></a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="contact.html" class="button" data-text="buttons:contact"></a>
                     </li>
@@ -56,15 +56,14 @@
         </div>
 
         <section class="greeting">
-            <h1 class="hallo">
-                Willkommen und ich wünsche Dir viel Spaß beim Anschauen!
+            <h1 class="hallo" data-text="greeting:hallo-videos">
             </h1>
         </section>
         <div class="video-list">
 
             <div class="video-box">
                 <video id="liu-player" class="video-js" controls preload="auto" width="240" height="135" poster="img/Weintrauben.jpg" data-setup='{}'>
-                    <source src="video/l_amour_c_est comme_l_ete.mp4" type="video/mp4"></source>
+                    <source src="video/l_amour_c_est comme_l_ete.mp4" type="video/mp4">
                     <p class="vjs-no-js">
                         To view this video please enable JavaScript, and consider upgrading to a web browser that
                         <a href="http://videojs.com/html5-video-support/" target="_blank">
@@ -77,14 +76,14 @@
                     <h3>L'amour c'est comme l'été</h3>
                     <span>Musik und Video:&nbsp;&nbsp;Liu (2017)</span>
                     <p class="video-info-small-text">
-                            Ich bedanke mich bei Viktorija S. für ihre Teilnahme an diesem Projekt.
+                        Ich bedanke mich bei Viktorija S. für ihre Teilnahme an diesem Projekt.
                     </p>
                 </div>
             </div>
 
             <div class="video-box">
                 <video id="liu-player" class="video-js" controls preload="auto" width="240" height="135" poster="img/Winter.png" data-setup='{}'>
-                    <source src="video/Wintermaerchen.mp4" type="video/mp4"></source>
+                    <source src="video/Wintermaerchen.mp4" type="video/mp4">
                     <p class="vjs-no-js">
                         To view this video please enable JavaScript, and consider upgrading to a web browser that
                         <a href="http://videojs.com/html5-video-support/" target="_blank">
@@ -102,15 +101,56 @@
                         Ich bedanke mich bei Edgars B. für das netterweise zur Verfügung gestellte Video des Neuschwanstein Schlosses.
                     </p>
                 </div>
-                
+
+            </div>
+
+            <div class="video-box">
+                <video id="liu-player" class="video-js" controls preload="auto" width="240" height="135" poster="img/Lullaby.png" data-setup='{}'>
+                    <source src="video/Lullaby.mp4" type="video/mp4">
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">
+                            supports HTML5 video
+                        </a>
+                    </p>
+                </video>
+                <div class="video-info">
+                    <h3>Lullaby</h3>
+                    <span>Musik und Video:&nbsp;&nbsp;Liu (2018)</span>
+                    <p class="video-info-small-text">
+                        “I’m going to search for my star until I find it. It’s hidden in the drawer of innocence, wrapped in a scarf of wonder.”
+                        <br>
+                        – Michael Joseph Jackson
+                    </p>
+                </div>
+            </div>
+
+            <div class="video-box">
+                <video id="liu-player" class="video-js" controls preload="auto" width="240" height="135" poster="img/Netterling.png" data-setup='{}'>
+                    <source src="video/Netterling.mp4" type="video/mp4">
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">
+                            supports HTML5 video
+                        </a>
+                    </p>
+                </video>
+                <div class="video-info">
+                    <h3>Netterling</h3>
+                    <span>Musik und Video:&nbsp;&nbsp;Liu (2018)</span>
+                    <p class="video-info-small-text">
+                        Coming Soon
+                    </p>
+                </div>
             </div>
 
         </div>
 
         <div class="footer">
             <p class="copyright" property="dc:rights">&copy;
-                <span property="dc:dateCopyrighted">2010-2018</span>
+                <span property="dc:dateCopyrighted">2013-2018</span>
                 <span property="dc:publisher">Lubova Obutova</span>
+                <span class="footer-link-right"><a href="mailto:liu@liu.lv">liu@liu.lv</a></span>
             </p>
         </div>
     </div>

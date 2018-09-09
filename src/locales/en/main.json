@@ -3,12 +3,37 @@
         "about-me": "About me",
         "music-and-video": "Music and Videos",
         "photos": "Photos",
-        "life": "Life in Germany",
+        "life": "Riga - Karlsruhe",
         "contact": "Contact"
     },
     "lang": {
         "de": "German",
         "en": "English",
         "ru": "Russian"
+    },
+    "greeting": {
+        "hallo":"Hello And Welcome, Dear Visitors Of My Site! <br/> I'm glad You came in my World.",
+        "hallo-videos": "Welcome And I Wish You Have A Lot Of Fun With The Videos Watching.",
+        "hallo-photos": "Welcome And I Wish You Have A Lot Of Fun With The Photos Watching.",
+        "hallo-contact": "Dear Visitors Of My Site,"
+    },
+    "maintext": {
+        "first-content-main": "Hello, my name is Liu and this site is dedicated to my favorite hobby. The site is still in the development phase, so I hope it will soon be more diverse and interesting. Here I present you my own little musical compositions. I also tried to visualize them in video sketches.",
+        "second-content-main": "Briefly about my Hobby. Since I was a 5 year old girl I have been involved in music. And I think that with Its help a whole new world was opened up for me. Although It has remained my hobby, I can not only listen and hear, but also perceive and analyse It. From the great sounds of nature to the many musical variations and styles that only human beings could create. I can admit that I still know very little about It. Besides, I do not know anybody who knows everything about Music.", 
+        "third-content-main": "So, It is unique, incomparable and most loving, able to speak and communicate with us in the simplest and most accessible language in the world. It helps us far and wide and gives us a motivation to continue to live. It brings pleasure and rewards, inspires those who really want it, and with its help we can create something new, unexpected, \"fresh\" and \"delicious\" (maybe sometimes something crazy) for the perception. One can endlessly talk, debating about It, as about the most demanding and condescending Teacher. But It has no time limit. It knows no limit. Its name is known to everyone since childhood, because It is immutable - Music. And It is perfection."
+    },
+    "life": {
+        "first-content": "I was born in Latvia.",
+        "second-content": "In 2015" 
+    },
+    "contact": {
+        "first-content-contact": "if You want to leave a good and honest comment or recension,</br> <strong>You're welcome! </strong> </br> Just write me on e-mail" ,
+        "second-content-contact": "</br> <strong> or </strong> </br> right down below.</br> (max. 200 symbols)",
+        "third-content-contact": "Thank You very much!",
+        "button-send": "Send"
+    },
+    "placeholder": {
+        "name": "Your name",
+        "mail": "Your e-mail"
     }
 }

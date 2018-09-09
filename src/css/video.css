@@ -6,7 +6,7 @@
 
 .video-box {
   display: flex;
-  max-width: 510px;
+  width: 510px;
   margin-top: 20px;
   padding: 10px;
   border: 2px solid rgba(255, 255, 240, 0.380);
@@ -24,6 +24,11 @@
   border: 1px solid rgba(255, 255, 240, 0.380);
   border-radius: 3px;
 }
+
+.video-info:hover,
+.video-box.active .video-info {
+  color: #4b4949;
+} 
 
 .video-info h3 {
   margin-top: 0;

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "monotypeFont";
+  src: url("../fonts/monotype.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +14,10 @@ body {
   height: 100%;
   margin: 0;
   background-color: #e9d9a81a;
-  /* background: linear-gradient(to right, #e4dabe, #e6c6661a); */
   background: radial-gradient(circle closest-side, #e6c6661a, #e4dabe);
-  font-family: Courier, sans-serif;
+  font-family: cursive, monotypeFont, sans-serif;
   font-style: italic;
-  color: #4b4949;
-  cursor: pointer;
+  color: #888;
 }
 
 .transparent {
@@ -50,7 +53,6 @@ body {
   display: inline-block;
   background-color: transparent;
   font-size: 13px;
-  font-family: Courier, sans-serif;
   font-style: italic;
   letter-spacing: 3px;
   text-align: center;
@@ -76,6 +78,7 @@ body {
 .button:hover {
   background-color: #6e5d2a1c;
   color: #4b4949;
+  font-family: cursive, monotypeFont, sans-serif;
   font-size: 16px;
   letter-spacing: 3px;
   text-indent: 1px 40px;
@@ -120,17 +123,18 @@ body {
   width: 70px;
   display: inline-block;
   background-color: transparent;
+  font-family: cursive, monotypeFont, sans-serif;
   font-size: 10px;
-  font-family: Courier, sans-serif;
   font-style: italic;
   letter-spacing: 2px;
-  color: #363333;
+  color: #888;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
   border-radius: 50%;
   line-height: 40px;
   background-color: #e9d9a81f;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 
 .btn-lang.active,
@@ -144,23 +148,47 @@ body {
 .greeting {
   /* text-transform: uppercase; */
   word-spacing: 10px;
+  color: #888;
+}
+
+.greeting p {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .hallo {
   text-align: center;
   padding: 20px;
   line-height: 210%;
+  color: #888;
+}
+
+.hallo:hover {
+  color: #4b4949;
 }
 
 .liu-photo {
+  background: url('../img/liu-photo.jpg');
+  background-size: 85px 117px;
+  width: 85px;
+  height: 117px;
   float: right;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: inset 0px 0px 5px 5px #e4dabe;
+}
+
+.liu-photo:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
 
 .text-indent {
   font-size: 18px;
+  color: #888;
   padding: 0 40px 0 40px;
   text-indent: 50px;
   line-height: 210%;
@@ -168,12 +196,27 @@ body {
 
 .text {
   font-size: 18px;
+  color: #888;
   padding: 0 40px 0 40px;
   line-height: 210%;
 }
 
+.text-indent:hover, 
+.text:hover {
+  color: #4b4949;
+} 
+
 .footer {
-  margin: 80px 0 40px 10px;
+  margin: 80px 20px 40px 10px;
+  color: #4b4949;
+}
+
+a, a:visited {
+  color: #4b4949;
+}
+
+.footer-link-right {
+  float: right; 
 }
 
 @media (max-width: 600px) {
